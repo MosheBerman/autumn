@@ -1,0 +1,305 @@
+/**
+
+ **/
+body
+{
+	margin: 0;
+	padding: 0;
+	/*text-align: center;	*/
+	font-family: "Avenir-Light";
+  font-weight: normal;
+  color: #fff;
+  background: #7fb3ce 100% url("../images/wallpaper.png"); /* Old browsers */
+
+}
+
+#wrapper 
+{
+
+	width: 640px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/**
+ *	---
+ *	The page header.
+ *	---
+ */
+
+#header 
+{
+	text-align: center;
+	font-weight: normal;
+  padding-top: 44px;
+}
+
+#header h1
+{
+	font-family: "Avenir-Light";
+	font-weight: normal;
+}
+
+#header h2
+{
+	font-family: "Avenir-Light";
+	font-weight: normal;
+}
+
+/**
+ *  The icons and their labels
+ */
+
+
+
+#icons-image
+{
+  width: 300px;
+}
+
+ #icon-labels
+ {
+  width: 300px;
+  text-align: center;
+  margin: 0 auto 10px auto;
+ }
+
+ #icon-labels .icon-label
+ {
+    width: 100px;
+    text-align: center;
+    float:left;
+ }
+
+/**
+ *
+ *
+ */
+
+ #form-wrapper
+ {
+  background-color: #fff;
+  border: 1px solid #000;
+  width: 380px;
+  margin: auto;
+  border-radius: 9px;
+  color: #000;
+  text-align: center;
+  padding: 0;
+  margin-top: 30px;
+ }
+
+ #form-wrapper h4
+ {
+  font-family: "Avenir-Light";
+  font-weight: normal;
+  margin: 10px auto 0 auto;
+  padding: 0 10px 5px 10px;
+  border-bottom: 1px solid #aaa;
+  text-align: left;
+ }
+
+/**
+ *	---
+ *	The sign up form
+ *	---
+ */
+
+#sign-up
+{
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+  margin: 0 auto;
+}
+
+/**
+ *	Form placeholder color.
+ *
+ *	See http://css-tricks.com/snippets/css/style-placeholder-text/
+ */
+
+::-webkit-input-placeholder 
+{
+   color: #555;
+   font-family: "AvenirNext-Regular";
+}
+
+:-moz-placeholder 
+{ /* Firefox 18- */
+   color: #555;  
+   font-family: "AvenirNext-Regular";
+}
+
+::-moz-placeholder
+{  /* Firefox 19+ */
+   color: #555;  
+   font-family: "AvenirNext-Regular";
+}
+
+:-ms-input-placeholder 
+{  
+   color: #555;  
+   font-family: "AvenirNext-Regular";
+}
+
+/**
+ *	Form input borders.
+ *
+ *	http://stackoverflow.com/questions/3397113/how-to-remove-border-outline-around-text-input-boxes-chrome
+ */
+
+#sign-up input 
+{
+    outline: 0;
+    border: 1px solid #000;
+    height: 24px;	
+    width: 300px;
+    font-size: 17px;
+    font-family: "AvenirNext-Regular";
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: box-shadow 0.3s, border 0.2s;
+    transition: box-shadow  0.3s, border 0.2s;
+}
+
+input:focus
+{
+	box-shadow: 0px 0px 2px 2px #007aff;
+  border: none;
+}
+
+/**
+ *	LAbels need some font work.
+ */
+
+ #sign-up label
+ {
+ 	padding-left: 1px;
+ 	font-size: 17.0px;
+ 	font-family: "AvenirNext-Regular";
+  visibility: hidden;
+  display: none;
+ }
+
+ /**
+  *	The button.
+  */
+
+  #sign-up button
+  {
+  	width: 320px;
+  	font-family: "AvenirNext-Regular";
+  	color: #007aff;
+  	outline: 0;
+ 	  border: 1px solid #007aff;
+	  border-radius: 5px;	
+  	padding: 10px;
+	  font-size: 17.0px;
+	  background: #fff;
+	  margin-bottom: 0;
+    -webkit-transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s;
+  }
+
+  #sign-up button:hover
+  {
+  	background-color: #007aff;
+  	color: #fff;
+  	border: none;
+  	margin-bottom: 2px;
+    -webkit-transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s;
+  }
+
+/** ---
+ *  Footer
+ *  ---
+ */
+
+#footer #buttons
+{
+  width: 360px;
+    margin: 0 auto;
+    text-align: center; 
+    padding-top: 20px; 
+}
+
+#footer .social-button
+ {
+    border: 1px solid;
+    margin: 0 5px;
+    border-radius: 8px;
+    padding: 5px;
+    text-decoration: none;
+    -webkit-transition: color 0.3s, background-color 0.3s;
+    transition: color 0.3s, background-color 0.3s;
+    font-weight: normal;
+    font-family: "AvenirNext-Regular", "Helvetica", sans-serif;
+    text-align: center;
+ }
+
+#facebook
+{
+  background-color: #3B5998;
+  border-color: #fff;
+  color: #fff;
+}
+
+#facebook:hover
+{
+  color: #3B5998;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+ #twitter
+{
+  background-color: #4099FF;
+  border-color: #4099FF;
+  color: #fff;
+}
+
+#twitter:hover{
+  color: #4099FF;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+#plus
+{
+  color: #fff;
+  background-color: #F02D26;
+  border-color: #F02D26;
+}
+
+#plus:hover
+{
+  color: #F02D26;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+#github
+{
+  color: #fff;
+  background-color: #333333;
+  border-color: #333333;
+}
+
+#github:hover
+{
+  color: #333333;
+  background-color: #fff;
+  border-color: #fff;  
+}
+
+#footer h4
+{
+  text-align: center;
+  font-family: "AvenirNext-UltraLight", "HelveticaNueue-Light", "Helvetica", sans-serif;
+  font-weight: lighter;
+}

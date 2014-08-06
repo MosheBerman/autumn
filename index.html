@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> 
+			Autumn Sign Up
+		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"> 
+		<!--
+
+	Responsive code:
+
+	https://blog.safaribooksonline.com/2012/02/24/responsive-mobile-design-media-queries-css3-ios-2/
+
+		-->
+		<style type="text/css">
+			@import "css/autumn.css" (min-width: 641px);
+			@import "css/mobile.css" (max-width: 640px);
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id="icons-wrapper">
+					<img src="./images/icons.png" id="icons-image" alt="Empty app icons." />
+					<div id="icon-labels">
+						<span class="icon-label">
+							Are
+						</span>
+						<span class="icon-label">
+							You
+						</span>
+						<span class="icon-label">
+							Ready?
+						</span>						
+					</div>
+				</div>
+			</div>
+			<div id="form-wrapper">
+				<h4>
+					I'm making some new iOS apps. If you want to know when they're finished, just sign up below. I'll send you an email.
+				</h4>
+				<form action="http://mosheberman.createsend.com/t/d/s/jjdub/" method="post" id="sign-up">
+				    <p>
+				        <input id="fieldName" name="cm-name" type="text" placeholder="name" />
+				    </p>
+				    <p>
+				        <input id="fieldEmail" placeholder="email" name="cm-jjdub-jjdub" type="email" required />
+				    </p>
+				    <p>
+				        <button type="submit">Tell me when.</button>
+				    </p>
+				</form>
+			</div>
+			<div id="footer">
+				<div id="buttons">
+					<a href="http://github.com/MosheBerman" class="social-button" id="github">GitHub</a>
+					<a href="http://twitter.com/bermaniastudios" class="social-button" id="twitter">Twitter</a>
+					<a href="http://facebook.com/moshberm" class="social-button" id="facebook">Facebook</a>
+					<a href="https://plus.google.com/+MosheBerman" class="social-button" id="plus">Google+</a>
+				</div>
+				<h4>
+					&copy; 2014 Moshe Berman, all rights reserved. Coming Fall 2014.
+				</h4>
+			</div>
+		</div>	
+		<script type="text/javascript" src="./scripts/retina.js"></script>
+	</body>
+</html>
